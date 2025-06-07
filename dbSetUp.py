@@ -37,4 +37,19 @@ df_filtered_sorted = df_filtered.sort_values(['Player', 'MP'], ascending=[True, 
 df_unique = df_filtered_sorted.drop_duplicates(subset=['Player'], keep='first')
 
 print(df_unique)
+#convert the position prefrixes to the english names
+pos_map = {
+    'FW': 'Forward',
+    'MF': 'Midfielder',
+    'DF': 'Defender',
+    'GK': 'Goalkeeper'
+}
+
+def map_positions(pos_str):
+    positions = [p.strip() for p in pos_str.split(',')]
+    mapped = [pos_map.get(p, p) for p in positions]
+    return ', '.join(mapped)
+
+df_unique = df_filtered.drop_duplicates(subset='Player', keep='last').copy()
+df_unique.loc[:, 'Pos'] = df_unique['Pos'].apply(map_positions)
 df_unique.to_csv('overall_players_data.csv', index=False)
