@@ -1,17 +1,18 @@
 import os
 import psycopg2 as psql
 import pandas as pd
-
+from config import config
 def main():
-    overall_df = pd.read_csv('dataPipeline/data/processed/overall_players_data.csv')
-    postgres_user = os.environ['POSTGRES_USER']
-    postgres_password = os.environ['POSTGRES_PASSWORD']
+    overall_df = pd.read_csv(config.PROCESSED_DATA_PATH, encoding='utf-8')
+    postgres_user = config.POSTGRES_USER
+    postgres_password = config.POSTGRES_PASSWORD
     
-    conn = psql.connect(database="footballdle_db",
+    conn = psql.connect(database=config.DATABASE_NAME,
                         host="localhost",
                         user=postgres_user,
                         password=postgres_password,
                         port=5432)
+    conn.set_client_encoding('UTF8')
     cursor = conn.cursor()
     
     cursor.execute("DROP TABLE IF EXISTS overall_players;")
@@ -49,7 +50,7 @@ def main():
         ))  
     conn.commit()
 
-    # Close connection
+    #close connection
     cursor.close()
     conn.close()
     print("Data written successfully!")

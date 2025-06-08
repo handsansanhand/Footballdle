@@ -8,6 +8,7 @@ import kagglehub
 import os
 import country_converter as coco
 import pycountry
+from config import config
 #download latest version
 
 pos_map = {
@@ -73,10 +74,10 @@ def convert_to_country_name(code):
         return None
 
 def main():
-    path = kagglehub.dataset_download("hubertsidorowicz/football-players-stats-2024-2025")
+    path = kagglehub.dataset_download(config.KAGGLE_DATASET)
 
-    csv_file = 'players_data-2024_2025.csv'
-    csv_path = os.path.join(path, csv_file)
+    #csv_file = 'players_data-2024_2025.csv'
+    csv_path = os.path.join(path, config.KAGGLE_CSV_FILE)
 
     #read the csv file
     df = pd.read_csv(csv_path)
@@ -107,7 +108,7 @@ def main():
     #remove any nan entries in the columns
     df_clean = df_unique.dropna()
     #and finally save the big dataset
-    df_clean.to_csv('dataPipeline/data/processed/overall_players_data.csv', index=False)
+    df_clean.to_csv(config.PROCESSED_DATA_PATH, index=False, encoding='utf-8')
 
 if __name__ == "__main__":
     main()
