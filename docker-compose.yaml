@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: postgres-db
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  data-pipeline:
+    build:
+      context: ./dataPipeline
+      dockerfile: Dockerfile
+    depends_on:
+      - postgres
+    environment:
+     POSTGRES_USER: ${POSTGRES_USER}
+     POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+     POSTGRES_DB: ${POSTGRES_DB}
+     POSTGRES_HOST: ${POSTGRES_HOST}
+    restart: on-failure
+
+volumes:
+  postgres_data:
