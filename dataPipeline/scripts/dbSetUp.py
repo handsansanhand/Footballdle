@@ -86,7 +86,7 @@ def main():
 
     df_filtered = df[columns_to_keep]
 
-    df_filtered.to_csv('backup.csv', index=False)
+    df_filtered.to_csv('dataPipeline/data/raw/raw_data.csv', index=False)
 
     #players have played for more than two clubs, is a problem
     #convert the matches played to numeric
@@ -96,19 +96,10 @@ def main():
     df_filtered_sorted = df_filtered.sort_values(['Player', 'MP'], ascending=[True, False])
     df_unique = df_filtered_sorted.drop_duplicates(subset=['Player'], keep='first')
 
-
     #convert the position prefrixes to the english names
-
-
-
-
     df_unique = df_filtered.drop_duplicates(subset='Player', keep='last').copy()
     df_unique.loc[:, 'Pos'] = df_unique['Pos'].apply(map_positions)
     df_unique['Nation'] = df_unique['Nation'].str.split().str[1]
-
-
-
-
 
     #clean up the nation field
     df_unique['Nation'] = df_unique['Nation'].apply(convert_to_country_name)
@@ -116,7 +107,7 @@ def main():
     #remove any nan entries in the columns
     df_clean = df_unique.dropna()
     #and finally save the big dataset
-    df_clean.to_csv('overall_players_data.csv', index=False)
+    df_clean.to_csv('dataPipeline/data/processed/overall_players_data.csv', index=False)
 
 if __name__ == "__main__":
     main()

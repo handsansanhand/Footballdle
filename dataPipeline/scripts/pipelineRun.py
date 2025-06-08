@@ -1,4 +1,4 @@
-import dbSetUp
+import dbSetUp as dbSetUp
 
 def main():
     dbSetUp.main()
