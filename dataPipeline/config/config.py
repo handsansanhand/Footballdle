@@ -8,6 +8,12 @@ BASE_DATA_DIR = os.path.join('dataPipeline', 'data')
 #paths for raw and processed data
 RAW_DATA_PATH = os.path.join(BASE_DATA_DIR, 'raw', 'raw_data.csv')
 PROCESSED_DATA_PATH = os.path.join(BASE_DATA_DIR, 'processed', 'overall_players_data.csv')
+PREMIER_LEAGUE_DATA_PATH = os.path.join(BASE_DATA_DIR, 'processed', 'premier_league_players_data.csv')
+LA_LIGA_DATA_PATH = os.path.join(BASE_DATA_DIR, 'processed', 'la_liga_players_data.csv')
+BUNDESLIGA_DATA_PATH = os.path.join(BASE_DATA_DIR, 'processed', 'bundesliga_players_data.csv')
+LIGUE_1_DATA_PATH = os.path.join(BASE_DATA_DIR, 'processed', 'ligue_1_players_data.csv')
+SERIE_A_DATA_PATH = os.path.join(BASE_DATA_DIR, 'processed', 'serie_a_players_data.csv')
+
 
 #kaggle dataset details
 KAGGLE_DATASET = "hubertsidorowicz/football-players-stats-2024-2025"

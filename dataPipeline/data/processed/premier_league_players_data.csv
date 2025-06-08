@@ -1,0 +1,524 @@
+Player,Age,Nation,Pos,Squad,Comp,MP,Gls,Ast
+Joshua Acheampong,18.0,England,Defender,Chelsea,Premier League,4,0,0
+Tyler Adams,25.0,United States,Midfielder,Bournemouth,Premier League,28,0,3
+Tosin Adarabioyo,26.0,England,Defender,Chelsea,Premier League,22,1,1
+Simon Adingra,22.0,Côte d'Ivoire,"Forward, Midfielder",Brighton,Premier League,29,2,2
+Asher Agbinone,18.0,England,Midfielder,Crystal Palace,Premier League,2,0,0
+Ola Aina,27.0,Nigeria,Defender,Nott'ham Forest,Premier League,35,2,1
+Rayan Aït-Nouri,23.0,Algeria,Defender,Wolves,Premier League,37,4,7
+Kristoffer Ajer,26.0,Norway,Defender,Brentford,Premier League,24,0,0
+Manuel Akanji,29.0,Switzerland,Defender,Manchester City,Premier League,26,0,0
+Nathan Aké,29.0,Netherlands,Defender,Manchester City,Premier League,10,0,0
+Carlos Alcaraz,21.0,Argentina,"Forward, Midfielder",Everton,Premier League,15,2,3
+Trent Alexander-Arnold,25.0,England,Defender,Liverpool,Premier League,33,3,6
+Alisson,31.0,Brazil,Goalkeeper,Liverpool,Premier League,28,0,0
+Miguel Almirón,30.0,Paraguay,Forward,Newcastle Utd,Premier League,9,0,0
+Edson Álvarez,26.0,Mexico,Midfielder,West Ham,Premier League,28,0,1
+Will Alves,19.0,England,Forward,Leicester City,Premier League,1,0,0
+Harry Amass,17.0,England,Defender,Manchester Utd,Premier League,5,0,0
+Joachim Andersen,28.0,Denmark,Defender,Fulham,Premier League,29,0,0
+Elliot Anderson,21.0,England,Midfielder,Nott'ham Forest,Premier League,37,2,6
+André,23.0,Brazil,Midfielder,Wolves,Premier League,33,0,0
+Michail Antonio,34.0,Jamaica,Forward,West Ham,Premier League,14,1,1
+Julian Araujo,22.0,Mexico,Defender,Bournemouth,Premier League,12,0,0
+Cameron Archer,23.0,England,Forward,Southampton,Premier League,35,2,0
+Alphonse Areola,31.0,France,Goalkeeper,West Ham,Premier League,26,0,0
+Joe Aribo,28.0,Nigeria,"Midfielder, Defender",Southampton,Premier League,32,3,0
+Adam Armstrong,27.0,England,"Forward, Midfielder",Southampton,Premier League,20,2,2
+Harrison Armstrong,17.0,England,Midfielder,Everton,Premier League,3,0,0
+Kepa Arrizabalaga,29.0,Spain,Goalkeeper,Bournemouth,Premier League,31,0,0
+Brandon Austin,25.0,England,Goalkeeper,Tottenham,Premier League,1,0,0
+Taiwo Awoniyi,26.0,Nigeria,Forward,Nott'ham Forest,Premier League,26,1,0
+Yasin Ayari,20.0,Sweden,Midfielder,Brighton,Premier League,34,2,1
+Jordan Ayew,32.0,Ghana,"Forward, Midfielder",Leicester City,Premier League,30,5,0
+Benoît Badiashile,23.0,France,Defender,Chelsea,Premier League,5,0,0
+Leon Bailey,26.0,Jamaica,"Forward, Midfielder",Aston Villa,Premier League,24,1,2
+Carlos Baleba,20.0,Cameroon,Midfielder,Brighton,Premier League,34,3,1
+Ross Barkley,30.0,England,Midfielder,Aston Villa,Premier League,20,3,1
+Harvey Barnes,26.0,England,Forward,Newcastle Utd,Premier League,33,9,4
+Calvin Bassey,24.0,Nigeria,Defender,Fulham,Premier League,35,1,0
+Altay Bayındır,26.0,Türkiye,Goalkeeper,Manchester Utd,Premier League,4,0,0
+Jan Bednarek,28.0,Poland,Defender,Southampton,Premier League,30,2,0
+Armel Bella Kotchap,22.0,Germany,Defender,Southampton,Premier League,4,0,0
+Jean-Ricner Bellegarde,26.0,France,"Midfielder, Forward",Wolves,Premier League,35,2,7
+Rodrigo Bentancur,27.0,Uruguay,Midfielder,Tottenham,Premier League,26,2,0
+Daniel Bentley,31.0,England,Goalkeeper,Wolves,Premier League,2,0,0
+Sander Berge,26.0,Norway,Midfielder,Fulham,Premier League,31,0,0
+Lucas Bergvall,18.0,Sweden,Midfielder,Tottenham,Premier League,27,0,1
+Victor Bernth Kristiansen,21.0,Denmark,Defender,Leicester City,Premier League,30,0,1
+Beto,26.0,Guinea-Bissau,Forward,Everton,Premier League,30,8,0
+Yves Bissouma,27.0,Mali,Midfielder,Tottenham,Premier League,28,2,0
+Oscar Bobb,21.0,Norway,Forward,Manchester City,Premier League,3,0,0
+Lamare Bogarde,20.0,Netherlands,"Defender, Midfielder",Aston Villa,Premier League,8,0,0
+Willy Boly,33.0,Côte d'Ivoire,Defender,Nott'ham Forest,Premier League,6,0,0
+Sven Botman,24.0,Netherlands,Defender,Newcastle Utd,Premier League,8,0,0
+Jarrod Bowen,27.0,England,"Forward, Midfielder",West Ham,Premier League,34,13,8
+Conor Bradley,21.0,Northern Ireland,Defender,Liverpool,Premier League,19,0,2
+Jarrad Branthwaite,22.0,England,Defender,Everton,Premier League,30,0,1
+James Bree,26.0,England,Defender,Southampton,Premier League,17,0,1
+Ben Brereton,25.0,Chile,Forward,Southampton,Premier League,10,0,0
+Nathan Broadhead,26.0,Wales,"Midfielder, Forward",Ipswich Town,Premier League,18,2,0
+Armando Broja,22.0,Albania,Forward,Everton,Premier League,10,0,0
+David Brooks,27.0,Wales,"Forward, Midfielder",Bournemouth,Premier League,29,2,0
+Santiago Bueno,25.0,Uruguay,Defender,Wolves,Premier League,29,0,0
+Facundo Buonanotte,19.0,Argentina,"Forward, Midfielder",Leicester City,Premier League,31,5,2
+Cameron Burgess,28.0,Australia,Defender,Ipswich Town,Premier League,18,0,2
+Dan Burn,32.0,England,Defender,Newcastle Utd,Premier League,37,1,1
+Wes Burns,29.0,Wales,"Forward, Defender",Ipswich Town,Premier League,18,0,1
+Nathan Butler-Oyedeji,21.0,England,Forward,Arsenal,Premier League,1,0,0
+Moisés Caicedo,22.0,Ecuador,"Midfielder, Defender",Chelsea,Premier League,38,1,2
+Tom Cairney,33.0,Scotland,Midfielder,Fulham,Premier League,25,2,0
+Jens Cajuste,24.0,Sweden,Midfielder,Ipswich Town,Premier League,30,1,1
+Riccardo Calafiori,22.0,Italy,Defender,Arsenal,Premier League,19,2,1
+Dominic Calvert-Lewin,27.0,England,Forward,Everton,Premier League,26,3,1
+Diego Carlos,31.0,Brazil,Defender,Aston Villa,Premier League,10,0,0
+Fabio Carvalho,21.0,Portugal,"Forward, Midfielder",Brentford,Premier League,19,2,1
+Casemiro,32.0,Brazil,Midfielder,Manchester Utd,Premier League,24,1,0
+Kaelan Casey,19.0,England,Defender,West Ham,Premier League,1,0,0
+Matty Cash,26.0,Poland,Defender,Aston Villa,Premier League,27,1,1
+Eiran Cashin,22.0,Ireland,Defender,Brighton,Premier League,2,0,0
+Timothy Castagne,28.0,Belgium,Defender,Fulham,Premier League,24,0,1
+Trevoh Chalobah,25.0,England,Defender,Chelsea,Premier League,13,0,1
+Conor Chaplin,27.0,England,"Midfielder, Forward",Ipswich Town,Premier League,22,1,1
+Youssef Chermiti,20.0,Portugal,"Forward, Midfielder",Everton,Premier League,4,0,0
+Federico Chiesa,26.0,Italy,Forward,Liverpool,Premier League,6,0,0
+Ben Chilwell,27.0,England,Defender,Crystal Palace,Premier League,8,1,0
+Hamza Choudhury,26.0,Bangladesh,"Midfielder, Defender",Leicester City,Premier League,4,0,0
+Ryan Christie,29.0,Scotland,Midfielder,Bournemouth,Premier League,29,2,3
+Harry Clarke,23.0,England,Defender,Ipswich Town,Premier League,7,0,0
+Jack Clarke,23.0,England,"Forward, Midfielder",Ipswich Town,Premier League,32,0,4
+Nathaniel Clyne,33.0,England,"Defender, Midfielder",Crystal Palace,Premier League,13,0,0
+Conor Coady,31.0,England,Defender,Leicester City,Premier League,22,1,0
+Séamus Coleman,35.0,Ireland,Defender,Everton,Premier League,5,0,0
+Nathan Collins,23.0,Ireland,Defender,Brentford,Premier League,38,2,3
+Toby Collyer,20.0,England,Midfielder,Manchester Utd,Premier League,6,0,0
+Levi Colwill,21.0,England,Defender,Chelsea,Premier League,35,2,1
+Lewis Cook,27.0,England,"Midfielder, Defender",Bournemouth,Premier League,36,1,3
+Vladimír Coufal,31.0,Czechia,Defender,West Ham,Premier League,22,0,0
+Aaron Cresswell,34.0,England,Defender,West Ham,Premier League,18,0,0
+Marc Cucurella,26.0,Spain,Defender,Chelsea,Premier League,36,5,1
+Jorge Cuenca,24.0,Spain,Defender,Fulham,Premier League,8,0,0
+Matheus Cunha,25.0,Brazil,"Midfielder, Forward",Wolves,Premier League,33,15,6
+Patson Daka,25.0,Zambia,"Forward, Midfielder",Leicester City,Premier League,23,1,0
+Diogo Dalot,25.0,Portugal,Defender,Manchester Utd,Premier League,33,0,3
+Mikkel Damsgaard,24.0,Denmark,"Midfielder, Forward",Brentford,Premier League,38,2,10
+Jayden Danns,18.0,England,Midfielder,Liverpool,Premier League,1,0,0
+Ben Davies,31.0,Wales,Defender,Tottenham,Premier League,17,0,0
+Leif Davis,24.0,England,Defender,Ipswich Town,Premier League,33,1,2
+Craig Dawson,34.0,England,Defender,Wolves,Premier League,15,0,0
+Kevin De Bruyne,33.0,Belgium,"Midfielder, Forward",Manchester City,Premier League,28,4,7
+Bobby De Cordova-Reid,31.0,Jamaica,Forward,Leicester City,Premier League,23,1,2
+Liam Delap,21.0,England,Forward,Ipswich Town,Premier League,37,12,2
+Sepp van den Berg,22.0,Netherlands,Defender,Brentford,Premier League,31,0,0
+Justin Devenny,20.0,Northern Ireland,Midfielder,Crystal Palace,Premier League,23,1,1
+Kiernan Dewsbury-Hall,25.0,England,"Midfielder, Forward",Chelsea,Premier League,13,0,1
+Amad Diallo,22.0,Côte d'Ivoire,"Midfielder, Forward",Manchester Utd,Premier League,26,8,6
+Rúben Dias,27.0,Portugal,Defender,Manchester City,Premier League,27,0,0
+Luis Díaz,27.0,Colombia,Forward,Liverpool,Premier League,36,13,5
+Tyler Dibling,18.0,England,"Forward, Midfielder",Southampton,Premier League,33,2,0
+Lucas Digne,31.0,France,Defender,Aston Villa,Premier League,32,0,4
+Issa Diop,27.0,France,Defender,Fulham,Premier League,21,0,0
+Axel Disasi,26.0,France,Defender,Chelsea,Premier League,6,1,0
+Roman Dixon,19.0,England,Defender,Everton,Premier League,1,0,0
+Nasser Djiga,21.0,Burkina Faso,Defender,Wolves,Premier League,5,0,0
+Matt Doherty,32.0,Ireland,Defender,Wolves,Premier League,30,2,1
+Jeremy Doku,22.0,Belgium,"Forward, Midfielder",Manchester City,Premier League,29,3,6
+Nicolás Domínguez,26.0,Argentina,"Midfielder, Forward",Nott'ham Forest,Premier League,34,0,1
+Alfie Dorrington,19.0,England,Defender,Tottenham,Premier League,1,0,0
+Abdoulaye Doucouré,31.0,Mali,Midfielder,Everton,Premier League,33,3,2
+Cheick Doucouré,24.0,Mali,Midfielder,Crystal Palace,Premier League,13,0,0
+Flynn Downes,25.0,England,Midfielder,Southampton,Premier League,27,1,0
+Tommy Doyle,22.0,England,Midfielder,Wolves,Premier League,24,0,1
+Radu Drăgușin,22.0,Romania,Defender,Tottenham,Premier League,16,0,0
+Martin Dúbravka,35.0,Slovakia,Goalkeeper,Newcastle Utd,Premier League,10,0,0
+Lewis Dunk,32.0,England,Defender,Brighton,Premier League,25,0,0
+Jáder Durán,20.0,Colombia,Forward,Aston Villa,Premier League,20,7,0
+Claudio Echeverri,18.0,Argentina,Forward,Manchester City,Premier League,1,0,0
+Ederson,30.0,Brazil,Goalkeeper,Manchester City,Premier League,26,0,4
+George Edmundson,26.0,England,Defender,Ipswich Town,Premier League,1,0,0
+Odsonne Édouard,26.0,France,Forward,Leicester City,Premier League,4,0,0
+Samuel Edozie,21.0,England,"Defender, Forward",Southampton,Premier League,2,0,0
+Ronnie Edwards,21.0,England,Defender,Southampton,Premier League,1,0,0
+Anthony Elanga,22.0,Sweden,"Forward, Midfielder",Nott'ham Forest,Premier League,38,6,11
+Harvey Elliott,21.0,England,Midfielder,Liverpool,Premier League,18,1,2
+Yunus Emre Konak,18.0,Türkiye,"Forward, Midfielder",Brentford,Premier League,10,0,0
+Julio Enciso,20.0,Paraguay,"Midfielder, Forward",Brighton,Premier League,12,0,0
+Wataru Endo,31.0,Japan,"Midfielder, Defender",Liverpool,Premier League,20,0,0
+Christian Eriksen,32.0,Denmark,Midfielder,Manchester Utd,Premier League,23,1,2
+Romain Esse,19.0,England,Midfielder,Crystal Palace,Premier League,7,1,1
+Pervis Estupiñán,26.0,Ecuador,Defender,Brighton,Premier League,30,1,1
+Evanilson,24.0,Brazil,Forward,Bournemouth,Premier League,31,10,1
+Jonny Evans,36.0,Northern Ireland,Defender,Manchester Utd,Premier League,7,0,0
+Eberechi Eze,26.0,England,"Midfielder, Forward",Crystal Palace,Premier League,34,8,8
+Łukasz Fabiański,39.0,Poland,Goalkeeper,West Ham,Premier League,14,0,0
+Wout Faes,26.0,Belgium,Defender,Leicester City,Premier League,34,1,0
+Abdul Fatawu Issahaku,20.0,Ghana,Forward,Leicester City,Premier League,11,0,2
+Evan Ferguson,19.0,Ireland,Forward,Brighton,Premier League,13,1,0
+Bruno Fernandes,29.0,Portugal,Midfielder,Manchester Utd,Premier League,36,8,10
+Mateus Fernandes,20.0,Portugal,Midfielder,Southampton,Premier League,36,2,4
+Enzo Fernández,23.0,Argentina,Midfielder,Chelsea,Premier League,36,6,7
+Mark Flekken,31.0,Netherlands,Goalkeeper,Brentford,Premier League,37,0,2
+Phil Foden,24.0,England,"Midfielder, Forward",Manchester City,Premier League,28,7,2
+Wesley Fofana,23.0,France,Defender,Chelsea,Premier League,14,0,0
+Carlos Forbs,20.0,Portugal,"Midfielder, Forward",Wolves,Premier League,10,0,0
+Fraser Forster,36.0,England,Goalkeeper,Tottenham,Premier League,7,0,0
+Matheus França,20.0,Brazil,"Midfielder, Forward",Crystal Palace,Premier League,4,1,0
+Ryan Fraser,30.0,Scotland,"Forward, Defender",Southampton,Premier League,8,0,0
+Tyler Fredricson,19.0,England,Defender,Manchester Utd,Premier League,2,0,0
+Niclas Füllkrug,31.0,Germany,Forward,West Ham,Premier League,18,3,2
+Cody Gakpo,25.0,Netherlands,Forward,Liverpool,Premier League,35,10,4
+Idrissa Gana Gueye,34.0,Senegal,Midfielder,Everton,Premier League,37,0,3
+Andrés García,21.0,Spain,"Defender, Midfielder",Aston Villa,Premier League,7,0,0
+Alejandro Garnacho,20.0,Argentina,"Midfielder, Forward",Manchester Utd,Premier League,36,6,2
+James Garner,23.0,England,"Midfielder, Defender",Everton,Premier League,21,0,1
+Tyrique George,18.0,England,Forward,Chelsea,Premier League,8,1,1
+Morgan Gibbs-White,24.0,England,Midfielder,Nott'ham Forest,Premier League,34,7,8
+Martial Godo,21.0,England,"Forward, Defender",Fulham,Premier League,2,0,0
+Michael Golding,18.0,England,Midfielder,Leicester City,Premier League,1,0,0
+João Gomes,23.0,Brazil,Midfielder,Wolves,Premier League,36,3,1
+Rodrigo Gomes,21.0,Portugal,"Defender, Forward",Wolves,Premier League,25,2,0
+Toti Gomes,25.0,Portugal,Defender,Wolves,Premier League,31,0,1
+Diego Gómez,21.0,Paraguay,Midfielder,Brighton,Premier League,16,1,0
+Joe Gomez,27.0,England,Defender,Liverpool,Premier League,9,0,0
+Anthony Gordon,23.0,England,"Forward, Midfielder",Newcastle Utd,Premier League,34,6,5
+Ryan Gravenberch,22.0,Netherlands,Midfielder,Liverpool,Premier League,37,0,4
+Archie Gray,18.0,England,"Defender, Midfielder",Tottenham,Premier League,28,0,0
+Jack Grealish,28.0,England,"Forward, Midfielder",Manchester City,Premier League,20,1,1
+Jacob Greaves,23.0,England,Defender,Ipswich Town,Premier League,25,1,0
+Brajan Gruda,20.0,Germany,"Midfielder, Forward",Brighton,Premier League,21,1,4
+Gonçalo Guedes,27.0,Portugal,"Midfielder, Forward",Wolves,Premier League,29,2,4
+Marc Guéhi,24.0,England,Defender,Crystal Palace,Premier League,34,3,2
+Luis Guilherme,18.0,Brazil,"Midfielder, Forward",West Ham,Premier League,12,0,0
+Bruno Guimarães,26.0,Brazil,Midfielder,Newcastle Utd,Premier League,38,5,6
+Marc Guiu,18.0,Spain,Forward,Chelsea,Premier League,3,0,0
+İlkay Gündoğan,33.0,Germany,Midfielder,Manchester City,Premier League,33,1,6
+Malo Gusto,21.0,France,Defender,Chelsea,Premier League,32,0,1
+Joško Gvardiol,22.0,Croatia,Defender,Manchester City,Premier League,37,5,0
+Erling Haaland,24.0,Norway,Forward,Manchester City,Premier League,31,22,3
+Lewis Hall,19.0,England,Defender,Newcastle Utd,Premier League,27,0,4
+Ali Al Hamadi,22.0,Iraq,Forward,Ipswich Town,Premier League,11,0,0
+Marcus Harness,28.0,England,Midfielder,Ipswich Town,Premier League,2,0,0
+Jack Harrison,27.0,England,Forward,Everton,Premier League,34,1,0
+Taylor Harwood-Bellis,22.0,England,Defender,Southampton,Premier League,34,1,0
+Kai Havertz,25.0,Germany,"Forward, Midfielder",Arsenal,Premier League,23,9,3
+Ayden Heaven,17.0,England,Defender,Manchester Utd,Premier League,4,0,0
+Jan Paul van Hecke,24.0,Netherlands,Defender,Brighton,Premier League,34,1,1
+Hwang Hee-chan,28.0,"Korea, Republic of","Midfielder, Forward",Wolves,Premier League,21,2,0
+Dean Henderson,27.0,England,Goalkeeper,Crystal Palace,Premier League,38,0,0
+Rico Henry,27.0,England,Defender,Brentford,Premier League,5,0,0
+Mads Hermansen,24.0,Denmark,Goalkeeper,Leicester City,Premier League,27,0,0
+Son Heung-min,32.0,"Korea, Republic of",Forward,Tottenham,Premier League,30,7,9
+James Hill,22.0,England,Defender,Bournemouth,Premier League,10,0,1
+Jack Hinshelwood,19.0,England,"Midfielder, Defender",Brighton,Premier League,26,5,2
+George Hirst,25.0,Scotland,Forward,Ipswich Town,Premier League,26,3,1
+Mason Holgate,27.0,England,"Forward, Defender",Everton,Premier League,1,0,0
+Harry Howell,15.0,England,Forward,Brighton,Premier League,1,0,0
+Callum Hudson-Odoi,23.0,England,"Forward, Midfielder",Nott'ham Forest,Premier League,31,5,2
+Will Hughes,29.0,England,Midfielder,Crystal Palace,Premier League,33,0,3
+Dean Huijsen,19.0,Spain,Defender,Bournemouth,Premier League,32,3,2
+Omari Hutchinson,20.0,England,"Midfielder, Forward",Ipswich Town,Premier League,31,3,2
+Rasmus Højlund,21.0,Denmark,Forward,Manchester Utd,Premier League,32,4,0
+Igor,26.0,Brazil,Defender,Brighton,Premier League,13,0,0
+Danny Ings,32.0,England,"Forward, Midfielder",West Ham,Premier League,15,1,2
+Tim Iroegbunam,21.0,England,Midfielder,Everton,Premier League,18,0,1
+Andy Irving,24.0,Scotland,Midfielder,West Ham,Premier League,10,0,0
+Alexander Isak,24.0,Sweden,Forward,Newcastle Utd,Premier League,34,23,6
+Alex Iwobi,28.0,Nigeria,"Forward, Midfielder",Fulham,Premier League,38,9,6
+Nicolas Jackson,23.0,Senegal,Forward,Chelsea,Premier League,30,10,5
+Reece James,24.0,England,"Defender, Midfielder",Chelsea,Premier League,19,1,1
+Vitaly Janelt,26.0,Germany,Midfielder,Brentford,Premier League,32,1,3
+Vitezslav Jaros,23.0,Czechia,Goalkeeper,Liverpool,Premier League,1,0,0
+Daniel Jebbison,20.0,England,Forward,Bournemouth,Premier League,16,1,0
+Mathias Jensen,28.0,Denmark,Midfielder,Brentford,Premier League,24,0,2
+Gabriel Jesus,27.0,Brazil,Forward,Arsenal,Premier League,17,3,0
+Raúl Jiménez,33.0,Mexico,Forward,Fulham,Premier League,38,12,3
+Kim Jisoo,19.0,"Korea, Republic of",Defender,Brentford,Premier League,3,0,0
+João Pedro,22.0,Brazil,"Forward, Midfielder",Brighton,Premier League,27,10,6
+Joelinton,27.0,Brazil,"Midfielder, Forward",Newcastle Utd,Premier League,29,4,3
+Ben Johnson,24.0,England,"Defender, Forward",Ipswich Town,Premier League,23,1,2
+Brennan Johnson,23.0,Wales,Forward,Tottenham,Premier League,33,11,3
+Sam Johnstone,31.0,England,Goalkeeper,Wolves,Premier League,7,0,0
+Curtis Jones,23.0,England,"Midfielder, Defender",Liverpool,Premier League,33,3,3
+Jorginho,32.0,Italy,Midfielder,Arsenal,Premier League,15,0,0
+Diogo Jota,27.0,Portugal,Forward,Liverpool,Premier League,26,6,3
+James Justin,26.0,England,Defender,Leicester City,Premier League,36,2,2
+Filip Jørgensen,22.0,Denmark,Goalkeeper,Chelsea,Premier League,6,0,0
+Ferdi Kadioglu,24.0,Türkiye,"Defender, Midfielder",Brighton,Premier League,6,1,0
+Daichi Kamada,27.0,Japan,Midfielder,Crystal Palace,Premier League,34,0,0
+Boubacar Kamara,24.0,France,Midfielder,Aston Villa,Premier League,26,1,0
+Joachim Kayi Sanda,17.0,France,Defender,Southampton,Premier League,2,0,0
+Michael Keane,31.0,England,Defender,Everton,Premier League,14,3,0
+Caoimhín Kelleher,25.0,Ireland,Goalkeeper,Liverpool,Premier League,10,0,0
+Milos Kerkez,20.0,Hungary,Defender,Bournemouth,Premier League,38,2,5
+Bilal El Khannouss,20.0,Morocco,"Midfielder, Forward",Leicester City,Premier League,32,2,3
+Max Kilman,27.0,England,Defender,West Ham,Premier League,38,0,1
+Tom King,29.0,Wales,Goalkeeper,Wolves,Premier League,1,0,0
+Antonín Kinský,21.0,Czechia,Goalkeeper,Tottenham,Premier League,6,0,0
+Jakub Kiwior,24.0,Poland,Defender,Arsenal,Premier League,17,1,0
+Justin Kluivert,25.0,Netherlands,Midfielder,Bournemouth,Premier League,34,12,6
+Ibrahima Konaté,25.0,France,Defender,Liverpool,Premier League,31,1,2
+Ezri Konsa,26.0,England,Defender,Aston Villa,Premier League,34,2,0
+Mateo Kovačić,30.0,Croatia,Midfielder,Manchester City,Premier League,31,6,2
+Caleb Kporha,18.0,England,Defender,Crystal Palace,Premier League,2,0,0
+Emil Krafth,29.0,Sweden,Defender,Newcastle Utd,Premier League,12,0,0
+Mohammed Kudus,23.0,Ghana,"Forward, Midfielder",West Ham,Premier League,32,5,3
+Dejan Kulusevski,24.0,Sweden,"Midfielder, Forward",Tottenham,Premier League,32,7,4
+Maxence Lacroix,24.0,France,Defender,Crystal Palace,Premier League,35,1,1
+Adam Lallana,36.0,England,Midfielder,Southampton,Premier League,14,0,2
+Tariq Lamptey,23.0,Ghana,Defender,Brighton,Premier League,15,2,2
+Will Lankshear,19.0,England,"Forward, Midfielder",Tottenham,Premier League,3,0,0
+Roméo Lavia,20.0,Belgium,Midfielder,Chelsea,Premier League,16,0,1
+Mario Lemina,30.0,Gabon,"Midfielder, Defender",Wolves,Premier League,17,1,3
+Bernd Leno,32.0,Germany,Goalkeeper,Fulham,Premier League,38,0,1
+Jefferson Lerma,29.0,Colombia,"Midfielder, Defender",Crystal Palace,Premier League,33,0,1
+Rico Lewis,19.0,England,"Defender, Midfielder",Manchester City,Premier League,28,1,2
+Keane Lewis-Potter,23.0,England,"Defender, Forward",Brentford,Premier League,38,1,3
+Myles Lewis-Skelly,17.0,England,Defender,Arsenal,Premier League,23,1,0
+Matthijs de Ligt,24.0,Netherlands,Defender,Manchester Utd,Premier League,29,2,0
+Pedro Lima,18.0,Brazil,Defender,Wolves,Premier League,3,0,0
+Victor Lindelöf,30.0,Sweden,Defender,Manchester Utd,Premier League,16,0,0
+Jesper Lindstrøm,24.0,Denmark,Forward,Everton,Premier League,25,0,1
+Valentino Livramento,21.0,England,Defender,Newcastle Utd,Premier League,37,0,1
+Sean Longstaff,26.0,England,Midfielder,Newcastle Utd,Premier League,25,0,0
+Saša Lukić,27.0,Serbia,Midfielder,Fulham,Premier League,30,0,2
+Joe Lumley,29.0,England,Goalkeeper,Southampton,Premier League,3,0,0
+Massimo Luongo,31.0,Australia,Midfielder,Ipswich Town,Premier League,11,0,0
+Ian Maatsen,22.0,Netherlands,Defender,Aston Villa,Premier League,29,1,2
+Alexis Mac Allister,25.0,Argentina,Midfielder,Liverpool,Premier League,35,5,5
+James Maddison,27.0,England,Midfielder,Tottenham,Premier League,31,9,7
+Noni Madueke,22.0,England,Forward,Chelsea,Premier League,32,7,3
+Gabriel Magalhães,26.0,Brazil,Defender,Arsenal,Premier League,28,3,1
+Edmond-Paris Maghoma,23.0,England,"Midfielder, Forward",Brentford,Premier League,8,0,0
+Harry Maguire,31.0,England,Defender,Manchester Utd,Premier League,27,1,0
+Kobbie Mainoo,19.0,England,Midfielder,Manchester Utd,Premier League,25,0,0
+Tyrell Malacia,24.0,Netherlands,Defender,Manchester Utd,Premier League,3,0,0
+Ryan Manning,28.0,Ireland,"Defender, Midfielder",Southampton,Premier League,24,0,1
+Solly March,30.0,England,"Forward, Midfielder",Brighton,Premier League,8,0,0
+Gabriel Martinelli,23.0,Brazil,"Forward, Midfielder",Arsenal,Premier League,33,8,4
+Emiliano Martínez,31.0,Argentina,Goalkeeper,Aston Villa,Premier League,37,0,0
+Lisandro Martínez,26.0,Argentina,Defender,Manchester Utd,Premier League,20,2,1
+Pape Matar Sarr,21.0,Senegal,Midfielder,Tottenham,Premier League,36,3,2
+Jean-Philippe Mateta,27.0,France,Forward,Crystal Palace,Premier League,37,14,2
+Stephy Mavididi,26.0,England,Forward,Leicester City,Premier League,30,4,1
+Konstantinos Mavropanos,26.0,Greece,Defender,West Ham,Premier League,33,0,0
+Noussair Mazraoui,26.0,Morocco,Defender,Manchester Utd,Premier League,37,0,1
+Bryan Mbeumo,24.0,Cameroon,Forward,Brentford,Premier League,38,20,7
+James Mcatee,21.0,England,"Midfielder, Forward",Manchester City,Premier League,15,3,0
+Kasey McAteer,22.0,Ireland,Forward,Leicester City,Premier League,18,1,1
+Alex McCarthy,34.0,England,Goalkeeper,Southampton,Premier League,5,0,0
+John McGinn,29.0,Scotland,"Midfielder, Forward",Aston Villa,Premier League,34,1,4
+Dwight McNeil,24.0,England,"Midfielder, Forward",Everton,Premier League,21,4,6
+Ben Mee,34.0,England,Defender,Brentford,Premier League,7,0,0
+Jayden Meghoma,18.0,England,Defender,Brentford,Premier League,1,0,0
+Mikel Merino,28.0,Spain,"Midfielder, Forward",Arsenal,Premier League,28,7,2
+Shumaira Mheuka,16.0,England,Midfielder,Chelsea,Premier League,1,0,0
+Nikola Milenković,26.0,Serbia,Defender,Nott'ham Forest,Premier League,37,5,2
+Lewis Miley,18.0,England,Midfielder,Newcastle Utd,Premier League,14,1,0
+James Milner,38.0,England,Midfielder,Brighton,Premier League,4,0,0
+Tyrone Mings,31.0,England,Defender,Aston Villa,Premier League,14,0,0
+Yankuba Minteh,20.0,Gambia,"Forward, Midfielder",Brighton,Premier League,32,6,4
+Tyrick Mitchell,24.0,England,Defender,Crystal Palace,Premier League,37,0,5
+Kaoru Mitoma,27.0,Japan,"Forward, Midfielder",Brighton,Premier League,36,10,4
+Jakub Moder,25.0,Poland,Midfielder,Brighton,Premier League,4,0,0
+Mikey Moore,16.0,England,Forward,Tottenham,Premier League,10,0,1
+Morato,23.0,Brazil,Defender,Nott'ham Forest,Premier League,26,0,0
+Álex Moreno,31.0,Spain,"Defender, Midfielder",Nott'ham Forest,Premier League,15,0,1
+Sam Morsy,32.0,Egypt,Midfielder,Ipswich Town,Premier League,33,1,1
+Yerson Mosquera,23.0,Colombia,Defender,Wolves,Premier League,5,0,0
+Mason Mount,25.0,England,Midfielder,Manchester Utd,Premier League,17,1,0
+Divin Mubama,19.0,England,Forward,Manchester City,Premier League,1,0,0
+Mykhailo Mudryk,23.0,Ukraine,Forward,Chelsea,Premier League,7,0,0
+Rodrigo Muniz,23.0,Brazil,Forward,Fulham,Premier League,31,8,1
+Daniel Muñoz,28.0,Colombia,Defender,Crystal Palace,Premier League,37,4,5
+Arijanet Muric,25.0,Kosovo,Goalkeeper,Ipswich Town,Premier League,18,0,0
+Murillo,22.0,Brazil,Defender,Nott'ham Forest,Premier League,36,2,0
+Jacob Murphy,29.0,England,Forward,Newcastle Utd,Premier League,35,8,12
+Vitaliy Mykolenko,25.0,Ukraine,Defender,Everton,Premier League,35,1,2
+Iliman Ndiaye,24.0,Senegal,Forward,Everton,Premier League,33,9,0
+Wilfred Ndidi,27.0,Nigeria,Midfielder,Leicester City,Premier League,28,0,5
+Reiss Nelson,24.0,England,Forward,Fulham,Premier League,11,1,1
+Neto,35.0,Brazil,Goalkeeper,Bournemouth,Premier League,2,0,0
+Pedro Neto,24.0,Portugal,Forward,Chelsea,Premier League,35,4,6
+Eddie Nketiah,25.0,England,"Forward, Midfielder",Crystal Palace,Premier League,29,3,1
+Christopher Nkunku,26.0,France,Forward,Chelsea,Premier League,27,3,2
+Gustavo Nunes,18.0,Brazil,"Forward, Midfielder",Brentford,Premier League,3,0,0
+Matheus Nunes,25.0,Portugal,"Defender, Midfielder",Manchester City,Premier League,26,1,6
+Darwin Núñez,25.0,Uruguay,Forward,Liverpool,Premier League,30,5,2
+Ethan Nwaneri,17.0,England,"Forward, Midfielder",Arsenal,Premier League,26,4,2
+Christian Nørgaard,30.0,Denmark,Midfielder,Brentford,Premier League,34,5,4
+Jake O'Brien,23.0,Ireland,Defender,Everton,Premier League,20,2,0
+Matt O'Riley,23.0,Denmark,Midfielder,Brighton,Premier League,21,2,2
+Dara O'Shea,25.0,Ireland,Defender,Ipswich Town,Premier League,35,0,2
+Chidozie Obi-Martin,16.0,Denmark,Forward,Manchester Utd,Premier League,7,0,0
+Wilson Odobert,19.0,France,"Forward, Midfielder",Tottenham,Premier League,16,1,0
+Chiedozie Ogbene,27.0,Ireland,Forward,Ipswich Town,Premier League,5,0,0
+Caleb Okoli,23.0,Italy,Defender,Leicester City,Premier League,19,1,0
+Robin Olsen,34.0,Sweden,Goalkeeper,Aston Villa,Premier League,4,0,0
+Amadou Onana,22.0,Belgium,Midfielder,Aston Villa,Premier League,26,3,0
+André Onana,28.0,Cameroon,Goalkeeper,Manchester Utd,Premier League,34,0,0
+Paul Onuachu,30.0,Nigeria,Forward,Southampton,Premier League,25,4,1
+Lewis Orford,18.0,England,Midfielder,West Ham,Premier League,2,0,0
+Stefan Ortega,31.0,Germany,Goalkeeper,Manchester City,Premier League,13,0,0
+William Osula,20.0,Denmark,Forward,Newcastle Utd,Premier League,14,1,0
+Dango Ouattara,22.0,Burkina Faso,Forward,Bournemouth,Premier League,32,7,4
+Nico O’Reilly,19.0,England,Defender,Manchester City,Premier League,9,2,0
+Alex Palmer,27.0,England,Goalkeeper,Ipswich Town,Premier League,13,0,0
+Cole Palmer,22.0,England,"Midfielder, Forward",Chelsea,Premier League,37,15,8
+Emerson Palmieri,29.0,Italy,Defender,West Ham,Premier League,31,2,1
+Lucas Paquetá,26.0,Brazil,"Midfielder, Forward",West Ham,Premier League,33,4,0
+Thomas Partey,31.0,Ghana,"Midfielder, Defender",Arsenal,Premier League,35,4,2
+Nathan Patterson,22.0,Scotland,Defender,Everton,Premier League,10,0,1
+Andreas Pereira,28.0,Brazil,Midfielder,Fulham,Premier League,33,2,4
+Ricardo Pereira,30.0,Portugal,Defender,Leicester City,Premier League,10,0,0
+Kalvin Phillips,28.0,England,Midfielder,Ipswich Town,Premier League,19,0,0
+Jaden Philogene Bidace,22.0,England,"Forward, Defender",Ipswich Town,Premier League,10,2,0
+Jordan Pickford,30.0,England,Goalkeeper,Everton,Premier League,38,0,1
+Ethan Pinnock,31.0,Jamaica,Defender,Brentford,Premier League,22,2,0
+Daniel Podence,28.0,Portugal,"Midfielder, Forward",Wolves,Premier League,2,0,0
+Alfie Pond,20.0,England,Defender,Wolves,Premier League,1,0,0
+Nick Pope,32.0,England,Goalkeeper,Newcastle Utd,Premier League,28,0,0
+Pedro Porro,24.0,Spain,Defender,Tottenham,Premier League,33,2,6
+Jarell Quansah,21.0,England,Defender,Liverpool,Premier League,13,0,0
+Hákon Rafn Valdimarsson,22.0,Iceland,Goalkeeper,Brentford,Premier League,2,0,0
+Aaron Ramsdale,26.0,England,Goalkeeper,Southampton,Premier League,30,0,0
+Jacob Ramsey,23.0,England,"Forward, Midfielder",Aston Villa,Premier League,29,1,3
+Marcus Rashford,26.0,England,Forward,Aston Villa,Premier League,10,2,2
+David Raya,28.0,Spain,Goalkeeper,Arsenal,Premier League,38,0,0
+Harrison Reed,29.0,England,Midfielder,Fulham,Premier League,12,0,0
+Remy Rees-Dottin,18.0,England,Forward,Bournemouth,Premier League,1,0,0
+Sergio Reguilón,27.0,Spain,Defender,Tottenham,Premier League,4,0,0
+Vitor Reis,18.0,Brazil,Defender,Manchester City,Premier League,1,0,0
+Chadi Riad,21.0,Morocco,Defender,Crystal Palace,Premier League,1,0,0
+Declan Rice,25.0,England,Midfielder,Arsenal,Premier League,35,4,7
+Chris Richards,24.0,United States,Defender,Crystal Palace,Premier League,24,1,0
+Richarlison,27.0,Brazil,Forward,Tottenham,Premier League,15,4,1
+Andrew Robertson,30.0,Scotland,Defender,Liverpool,Premier League,33,0,1
+Antonee Robinson,26.0,United States,Defender,Fulham,Premier League,36,0,10
+Jay Robinson,17.0,England,"Midfielder, Forward",Southampton,Premier League,4,0,0
+Guido Rodríguez,30.0,Argentina,Midfielder,West Ham,Premier League,23,0,1
+Morgan Rogers,22.0,England,"Forward, Midfielder",Aston Villa,Premier League,37,8,10
+Cristian Romero,26.0,Argentina,Defender,Tottenham,Premier League,18,1,0
+Georginio Rutter,22.0,France,"Midfielder, Forward",Brighton,Premier League,28,5,3
+José Sá,31.0,Portugal,Goalkeeper,Wolves,Premier League,29,0,0
+Bukayo Saka,22.0,England,"Forward, Midfielder",Arsenal,Premier League,25,6,10
+Mohamed Salah,32.0,Egypt,Forward,Liverpool,Premier League,38,29,18
+William Saliba,23.0,France,Defender,Arsenal,Premier League,35,2,0
+Robert Sánchez,26.0,Spain,Goalkeeper,Chelsea,Premier League,32,0,0
+Jadon Sancho,24.0,England,Forward,Chelsea,Premier League,31,3,4
+Ibrahim Sangaré,26.0,Côte d'Ivoire,Midfielder,Nott'ham Forest,Premier League,13,0,1
+Pablo Sarabia,32.0,Spain,"Midfielder, Forward",Wolves,Premier League,23,3,2
+Jeremy Sarmiento,22.0,Ecuador,Midfielder,Brighton,Premier League,1,0,0
+Ismaila Sarr,26.0,Senegal,Midfielder,Crystal Palace,Premier League,38,8,6
+Sávio,20.0,Brazil,"Forward, Midfielder",Manchester City,Premier League,29,1,8
+Oliver Scarles,18.0,England,"Defender, Forward",West Ham,Premier League,15,0,0
+Dane Scarlett,20.0,England,"Forward, Midfielder",Tottenham,Premier League,3,0,1
+Kevin Schade,22.0,Germany,Forward,Brentford,Premier League,38,11,2
+Fabian Schär,32.0,Switzerland,Defender,Newcastle Utd,Premier League,34,4,0
+Jeffrey Schlupp,31.0,Ghana,"Midfielder, Defender",Crystal Palace,Premier League,12,0,0
+Alex Scott,20.0,England,Midfielder,Bournemouth,Premier League,20,0,0
+Matz Sels,32.0,Belgium,Goalkeeper,Nott'ham Forest,Premier League,38,0,0
+Nélson Semedo,30.0,Portugal,Defender,Wolves,Premier League,34,0,4
+Antoine Semenyo,24.0,Ghana,Forward,Bournemouth,Premier League,37,11,5
+Marcos Senesi,27.0,Argentina,Defender,Bournemouth,Premier League,17,0,0
+Ryan Sessegnon,24.0,England,"Forward, Defender",Fulham,Premier League,16,4,2
+Luke Shaw,29.0,England,Defender,Manchester Utd,Premier League,7,0,0
+Zain Silcott-Duberry,19.0,Montserrat,Forward,Bournemouth,Premier League,1,0,0
+Bernardo Silva,29.0,Portugal,"Midfielder, Forward",Manchester City,Premier League,33,4,4
+Jota Silva,24.0,Portugal,"Forward, Midfielder",Nott'ham Forest,Premier League,31,3,1
+Eric da Silva Moreira,18.0,Germany,"Midfielder, Defender",Nott'ham Forest,Premier League,2,0,0
+Jahmai Simpson-Pusey,18.0,England,Defender,Manchester City,Premier League,2,0,0
+Luis Sinisterra,25.0,Colombia,"Forward, Midfielder",Bournemouth,Premier League,12,1,1
+Oliver Skipp,23.0,England,Midfielder,Leicester City,Premier League,24,0,0
+William Smallbone,24.0,Ireland,Midfielder,Southampton,Premier League,18,1,0
+Adam Smith,33.0,England,Defender,Bournemouth,Premier League,25,0,0
+Emile Smith Rowe,24.0,England,Midfielder,Fulham,Premier League,34,6,3
+Dominic Solanke,26.0,England,Forward,Tottenham,Premier League,27,9,3
+Carlos Soler,27.0,Spain,"Midfielder, Forward",West Ham,Premier League,31,1,1
+Julio Soler,19.0,Argentina,"Defender, Forward",Bournemouth,Premier League,3,0,0
+Ramón Sosa,24.0,Paraguay,"Forward, Midfielder",Nott'ham Forest,Premier League,19,1,0
+Tomáš Souček,29.0,Czechia,Midfielder,West Ham,Premier League,35,9,1
+Boubakary Soumaré,25.0,France,Midfielder,Leicester City,Premier League,31,0,0
+Djed Spence,23.0,England,Defender,Tottenham,Premier League,25,1,2
+Jay Stansfield,21.0,England,Midfielder,Fulham,Premier League,1,0,0
+Jason Steele,33.0,England,Goalkeeper,Brighton,Premier League,2,0,0
+Jack Stephens,30.0,England,Defender,Southampton,Premier League,19,1,0
+Raheem Sterling,29.0,England,"Forward, Midfielder",Arsenal,Premier League,17,0,2
+Ross Stewart,28.0,Scotland,Forward,Southampton,Premier League,12,1,0
+Jakub Stolarczyk,23.0,Poland,Goalkeeper,Leicester City,Premier League,10,0,0
+John Stones,30.0,England,"Defender, Midfielder",Manchester City,Premier League,11,2,0
+Jørgen Strand Larsen,24.0,Norway,Forward,Wolves,Premier League,35,14,4
+Yukinari Sugawara,24.0,Japan,"Defender, Midfielder",Southampton,Premier League,30,1,1
+Kamaldeen Sulemana,22.0,Ghana,"Forward, Midfielder",Southampton,Premier League,26,1,1
+Crysencio Summerville,22.0,Netherlands,"Forward, Midfielder",West Ham,Premier League,19,1,1
+Sammie Szmodics,28.0,Ireland,"Forward, Midfielder",Ipswich Town,Premier League,20,4,0
+Dominik Szoboszlai,23.0,Hungary,Midfielder,Liverpool,Premier League,36,6,6
+Matt Targett,28.0,England,Defender,Newcastle Utd,Premier League,2,0,0
+James Tarkowski,31.0,England,Defender,Everton,Premier League,33,1,1
+Marcus Tavernier,25.0,England,"Forward, Midfielder",Bournemouth,Premier League,29,3,5
+Charlie Taylor,30.0,England,Defender,Southampton,Premier League,8,0,0
+Jack Taylor,26.0,Ireland,Midfielder,Ipswich Town,Premier League,32,1,0
+Kenny Tete,28.0,Netherlands,Defender,Fulham,Premier League,22,0,2
+Thiago,23.0,Brazil,"Forward, Midfielder",Brentford,Premier League,8,0,0
+Luke Thomas,23.0,England,Defender,Leicester City,Premier League,14,0,0
+Youri Tielemans,27.0,Belgium,Midfielder,Aston Villa,Premier League,36,3,7
+Kieran Tierney,27.0,Scotland,"Defender, Forward",Arsenal,Premier League,13,1,0
+Jurriën Timber,23.0,Netherlands,Defender,Arsenal,Premier League,30,1,3
+Jean-Clair Todibo,24.0,France,Defender,West Ham,Premier League,27,0,0
+Harry Toffolo,28.0,England,Defender,Nott'ham Forest,Premier League,4,0,0
+Takehiro Tomiyasu,25.0,Japan,Defender,Arsenal,Premier League,1,0,0
+Sandro Tonali,24.0,Italy,Midfielder,Newcastle Utd,Premier League,36,4,2
+Pau Torres,27.0,Spain,Defender,Aston Villa,Premier League,24,0,0
+Conor Townsend,31.0,England,Defender,Ipswich Town,Premier League,6,0,1
+Adama Traoré,28.0,Spain,"Forward, Midfielder",Fulham,Premier League,36,2,7
+Boubacar Traoré,22.0,Mali,Midfielder,Wolves,Premier League,1,0,0
+Mark Travers,25.0,Ireland,Goalkeeper,Bournemouth,Premier League,5,0,0
+Ryan Trevitt,21.0,England,Midfielder,Brentford,Premier League,1,0,0
+Kieran Trippier,33.0,England,Defender,Newcastle Utd,Premier League,25,0,3
+Leandro Trossard,29.0,Belgium,Forward,Arsenal,Premier League,38,8,7
+Kostas Tsimikas,28.0,Greece,Defender,Liverpool,Premier League,18,0,1
+Axel Tuanzebe,26.0,"Congo, The Democratic Republic of the",Defender,Ipswich Town,Premier League,22,0,1
+Destiny Udogie,21.0,Italy,Defender,Tottenham,Premier League,25,0,1
+Manuel Ugarte Ribeiro,23.0,Uruguay,Midfielder,Manchester Utd,Premier League,29,1,2
+Lesley Ugochukwu,20.0,France,Midfielder,Southampton,Premier League,26,1,1
+Enes Ünal,27.0,Türkiye,"Forward, Midfielder",Bournemouth,Premier League,17,2,1
+Virgil van Dijk,33.0,Netherlands,Defender,Liverpool,Premier League,37,3,1
+Jamie Vardy,37.0,England,Forward,Leicester City,Premier League,35,9,4
+Joël Veltman,32.0,Netherlands,Defender,Brighton,Premier League,21,0,0
+Micky van de Ven,23.0,Netherlands,Defender,Tottenham,Premier League,13,0,2
+Bart Verbruggen,21.0,Netherlands,Goalkeeper,Brighton,Premier League,36,0,1
+Jannik Vestergaard,31.0,Denmark,Defender,Leicester City,Premier League,18,0,0
+Guglielmo Vicario,27.0,Italy,Goalkeeper,Tottenham,Premier League,24,0,0
+Carlos Vinícius,29.0,Brazil,"Midfielder, Forward",Fulham,Premier League,3,0,0
+Kyle Walker-Peters,27.0,England,Defender,Southampton,Premier League,33,0,2
+Christian Walton,28.0,England,Goalkeeper,Ipswich Town,Premier League,7,0,0
+Aaron Wan-Bissaka,26.0,England,Defender,West Ham,Premier League,36,2,5
+Danny Ward,31.0,Wales,Goalkeeper,Leicester City,Premier League,2,0,0
+Joel Ward,34.0,England,Defender,Crystal Palace,Premier League,2,0,0
+James Ward-Prowse,29.0,England,Midfielder,Nott'ham Forest,Premier League,9,0,1
+Ollie Watkins,28.0,England,Forward,Aston Villa,Premier League,38,16,8
+Adam Webster,29.0,England,Defender,Brighton,Premier League,14,0,0
+Danny Welbeck,33.0,England,Forward,Brighton,Premier League,30,10,4
+Welington,23.0,Brazil,Defender,Southampton,Premier League,10,0,0
+Timo Werner,28.0,Germany,"Forward, Midfielder",Tottenham,Premier League,18,0,3
+Adam Wharton,20.0,England,Midfielder,Crystal Palace,Premier League,20,0,2
+Ben White,26.0,England,Defender,Arsenal,Premier League,17,0,2
+Mats Wieffer,24.0,Netherlands,"Defender, Midfielder",Brighton,Premier League,25,1,3
+Neco Williams,23.0,Wales,Defender,Nott'ham Forest,Premier League,35,1,3
+Willian,35.0,Brazil,"Forward, Midfielder",Fulham,Premier League,10,0,0
+Joe Willock,24.0,England,"Midfielder, Forward",Newcastle Utd,Premier League,32,0,2
+Callum Wilson,32.0,England,Forward,Newcastle Utd,Premier League,18,0,0
+Harry Wilson,27.0,Wales,"Forward, Midfielder",Fulham,Premier League,25,6,1
+Harry Winks,28.0,England,Midfielder,Leicester City,Premier League,22,0,2
+Ben Winterburn,19.0,England,"Midfielder, Forward",Bournemouth,Premier League,4,0,0
+Yoane Wissa,27.0,"Congo, The Democratic Republic of the",Forward,Brentford,Premier League,35,19,4
+Chris Wood,32.0,New Zealand,Forward,Nott'ham Forest,Premier League,36,20,3
+Nathan Wood-Gordon,22.0,England,Defender,Southampton,Premier League,11,0,0
+Luke Woolfenden,25.0,England,Defender,Ipswich Town,Premier League,15,0,0
+Yehor Yarmoliuk,20.0,Ukraine,Midfielder,Brentford,Premier League,31,0,0
+Ryan Yates,26.0,England,Midfielder,Nott'ham Forest,Premier League,35,2,1
+Leny Yoro,18.0,France,Defender,Manchester Utd,Premier League,21,0,0
+Ashley Young,39.0,England,Defender,Everton,Premier League,32,1,3
+Illia Zabarnyi,21.0,Ukraine,Defender,Bournemouth,Premier League,36,0,1
+Oleksandr Zinchenko,27.0,Ukraine,"Defender, Midfielder",Arsenal,Premier League,15,0,1
+Joshua Zirkzee,23.0,Netherlands,"Forward, Midfielder",Manchester Utd,Premier League,32,3,1
+Martin Ødegaard,25.0,Norway,Midfielder,Arsenal,Premier League,30,3,8
