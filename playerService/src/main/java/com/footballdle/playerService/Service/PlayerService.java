@@ -18,7 +18,7 @@ public class PlayerService {
     @Autowired
     private EntityManager entityManager;
     @Autowired
-    private PlayerPublisher playerPublisher;
+    private PlayerPublisherService playerPublisher;
     //at the start of the program, cache some players
     private Map<String, Player> cachedPlayers = new HashMap<>();
     

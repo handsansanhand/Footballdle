@@ -13,7 +13,7 @@ import com.footballdle.playerService.Model.Player;
  * And has functionality to send the randomly generated footballers to the kafka topic
  */
 @Service
-public class PlayerPublisher {
+public class PlayerPublisherService {
     
     private final KafkaTemplate<String, String> kafkaTemplate;
 
@@ -22,7 +22,7 @@ public class PlayerPublisher {
 
     
     @Autowired
-    public PlayerPublisher(KafkaTemplate<String, String> kafkaTemplate) {
+    public PlayerPublisherService(KafkaTemplate<String, String> kafkaTemplate) {
         this.kafkaTemplate = kafkaTemplate;
     }        
     public void publishPlayer(Player player) {
