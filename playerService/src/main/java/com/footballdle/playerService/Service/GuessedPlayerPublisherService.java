@@ -7,12 +7,13 @@ import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.footballdle.playerService.Model.GuessResponse;
 import com.footballdle.playerService.Model.Player;
 
 @Service
 public class GuessedPlayerPublisherService {
      private final KafkaTemplate<String, String> kafkaTemplate;
-
+    ObjectMapper objectMapper = new ObjectMapper();
     @Value("${player.topic.name:guessed-player-topic}")
     private String topicName;
 
@@ -21,9 +22,16 @@ public class GuessedPlayerPublisherService {
         this.kafkaTemplate = kafkaTemplate;
     }  
 
-    public void publishGuessedPlayer(Player player) {
-        String playerJson = convertPlayerToJson(player);
-        kafkaTemplate.send(topicName, playerJson);
+    public void publishGuessedPlayer(GuessResponse response) {
+        String message;
+        try {
+            message = objectMapper.writeValueAsString(response);
+             kafkaTemplate.send("guessed-player-topic", message);
+        } catch (JsonProcessingException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+       
     }
 
 

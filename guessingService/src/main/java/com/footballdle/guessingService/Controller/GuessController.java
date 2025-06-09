@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.footballdle.guessingService.Model.GuessRequest;
 import com.footballdle.guessingService.Model.Player;
 import com.footballdle.guessingService.Service.GuessPublishService;
 import com.footballdle.guessingService.Service.PlayerStorageService;
@@ -31,6 +32,6 @@ public class GuessController {
 
     @PostMapping("/players/guess")
     public void retrievePlayer(@RequestBody GuessRequest request) {
-    guess.sendGuessRequest(request.getPlayerName());
+    guess.sendGuessRequest(request);
 }
 }
