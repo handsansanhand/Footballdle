@@ -8,7 +8,9 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.footballdle.guessingService.Model.Player;
 
-/*This class should connect to the kafka container, subscribe to the queue, and maybe store the answer in cache */
+/*
+Class which knows the current random answer players
+This class should connect to the kafka container, subscribe to the queue, and maybe store the answer in cache */
 @Service
 public class PlayerConsumerService {
     @Autowired

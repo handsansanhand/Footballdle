@@ -47,6 +47,13 @@ public class PlayerService {
         return (Player) entityManager.createNativeQuery(sql, Player.class).getSingleResult();
     }
 
+    public Player getPlayerFromTable(String tableName, String playerName) {
+        String sql = "SELECT * FROM overall_players_table WHERE player = " + playerName;
+            return (Player) entityManager.createNativeQuery(sql, Player.class)
+                    .setParameter("playerName", playerName)
+                    .getSingleResult();
+    }
+
     public Map<String, Player> getAllRandomCachedPlayers() {
         return cachedPlayers;
     }
