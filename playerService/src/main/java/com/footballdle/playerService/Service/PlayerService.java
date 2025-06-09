@@ -48,7 +48,7 @@ public class PlayerService {
     }
 
     public Player getPlayerFromTable(String tableName, String playerName) {
-        String sql = "SELECT * FROM overall_players_table WHERE player = " + playerName;
+        String sql = "SELECT * FROM overall_players_table WHERE player = :playerName";
             return (Player) entityManager.createNativeQuery(sql, Player.class)
                     .setParameter("playerName", playerName)
                     .getSingleResult();

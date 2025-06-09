@@ -14,11 +14,18 @@ public class GuessConsumerService {
     private final ObjectMapper objectMapper = new ObjectMapper();
     @Autowired
     private PlayerService playerService;
+    @Autowired
+    private GuessedPlayerPublisherService guessedPlayerPublisherService;
+
+
+
     @KafkaListener(topics = "guess-topic", groupId = "player-service-group") 
     public void listen(String message) {
          try {
+            //if a player is found, send it back to guess
             Player player = playerService.getPlayerFromTable(message, message);
             System.err.println("Found a player: " + player);  
+            guessedPlayerPublisherService.publishGuessedPlayer(player);
          } catch (Exception e) {
             // TODO Auto-generated catch block
             System.err.println("Error: " + e.getMessage());    
