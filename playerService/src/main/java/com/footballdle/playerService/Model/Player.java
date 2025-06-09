@@ -7,7 +7,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "premier_league_players_table")
 public class Player {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
