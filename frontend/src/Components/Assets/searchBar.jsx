@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { fetchPlayerNames } from "../Services/playerNameService";
 
 const suggestionsList = [
   "Apple",
@@ -14,8 +15,19 @@ const suggestionsList = [
 
 function SearchBar() {
   const [searchTerm, setSearchTerm] = useState("");
+  const [allSuggestions, setAllSuggestions] = useState([]);
   const [filteredSuggestions, setFilteredSuggestions] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
+  
+  useEffect(() => {
+    const loadSuggestions = async () => {
+      const players = await fetchPlayerNames("premier_league_players_table");
+      console.log("Fetched players:", players);
+      setAllSuggestions(players);
+    };
+
+    loadSuggestions();
+  }, []);
 
   const handleChange = (e) => {
     const userInput = e.target.value;
@@ -27,7 +39,7 @@ function SearchBar() {
       return;
     }
 
-    const filtered = suggestionsList.filter((item) =>
+    const filtered = allSuggestions.filter((item) =>
       item.toLowerCase().startsWith(userInput.toLowerCase())
     );
 

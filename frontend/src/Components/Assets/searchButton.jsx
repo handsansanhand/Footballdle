@@ -6,7 +6,7 @@ function SearchButton() {
 
   const handleGuessClick = async () => {
     try {
-      const res = await fetch('/api/players/guess', {
+      const res = await fetch('/guess/players/guess', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

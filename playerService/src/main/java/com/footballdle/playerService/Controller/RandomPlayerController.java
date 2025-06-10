@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 
 @RestController
-@RequestMapping("/api/player")
+@RequestMapping("/players")
 public class RandomPlayerController {
 
     @Autowired
@@ -47,5 +47,16 @@ public class RandomPlayerController {
         };
         return playerService.getRandomPlayerFromTable(tableName);
     }
+
+    @GetMapping("/names/{league}")
+    public List<String> getPlayerNames(@PathVariable String league) {
+        if(league.equals("Overall")) {
+            return playerService.getAllPlayerNames();
+        } else {
+               return playerService.getAllPlayerNamesFromLeague(league);
+        }
+     
+    }
+    
 
 }

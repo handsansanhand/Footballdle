@@ -65,6 +65,18 @@ public class PlayerService {
     public Map<String, Player> getAllRandomCachedPlayers() {
         return cachedPlayers;
     }
+public List<String> getAllPlayerNames() {
+        String sql = "SELECT player FROM overall_players_table";
+    List<String> playerNames = entityManager.createNativeQuery(sql)
+                                            .getResultList();
+    return playerNames;
+    }
+    public List<String> getAllPlayerNamesFromLeague(String tableName) {
+        String sql = "SELECT player FROM " + tableName;
+    List<String> playerNames = entityManager.createNativeQuery(sql)
+                                            .getResultList();
+    return playerNames;
+    }
 
     public Player getCachedPlayer(String tableName) {
         return cachedPlayers.get(tableName);
