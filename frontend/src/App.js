@@ -1,15 +1,15 @@
 import { useState } from 'react'
 
 import './App.css'
-import SearchBar from './Components/Assets/searchBar'
-import SearchButton from './Components/Assets/searchButton'
+import SearchBar from './Components/Assets/SearchBar'
+import SearchButton from './Components/Assets/SearchButton'
+import Mainpage from './Components/Mainpage'
 
 function App() {
 
   return (
     <>
-      <SearchBar></SearchBar>
-      <SearchButton></SearchButton>
+      <Mainpage>ddd</Mainpage>
     </>
   )
   

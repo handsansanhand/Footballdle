@@ -1,0 +1,11 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    border-color: blue;
+    border-width: 5px;
+    border-style: dashed;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}

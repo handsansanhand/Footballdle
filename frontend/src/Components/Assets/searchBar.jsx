@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { fetchPlayerNames } from "../Services/playerNameService";
-
+import './SearchBar.css'
 const suggestionsList = [
   "Apple",
   "Banana",
@@ -13,7 +13,7 @@ const suggestionsList = [
   "Strawberry"
 ];
 
-function SearchBar() {
+function SearchBar({leagueName}) {
   const [searchTerm, setSearchTerm] = useState("");
   const [allSuggestions, setAllSuggestions] = useState([]);
   const [filteredSuggestions, setFilteredSuggestions] = useState([]);
@@ -21,13 +21,17 @@ function SearchBar() {
   
   useEffect(() => {
     const loadSuggestions = async () => {
-      const players = await fetchPlayerNames("premier_league_players_table");
-      console.log("Fetched players:", players);
+       console.log("Fetching players for :", leagueName);  
+      const players = await fetchPlayerNames(leagueName);
+      if(players.length == 0) {
+        console.log("errorerror");
+        setAllSuggestions(suggestionsList);
+      }
       setAllSuggestions(players);
     };
 
     loadSuggestions();
-  }, []);
+  }, [leagueName]);
 
   const handleChange = (e) => {
     const userInput = e.target.value;
@@ -55,11 +59,11 @@ function SearchBar() {
   };
 
   return (
-    <div className="relative w-64 mx-auto mt-10">
+    <div className="search-bar mt-10">
       <input
         type="text"
-        className="w-full p-2 border border-gray-300 rounded"
-        placeholder="Search for a fruit..."
+        className="search-bar"
+        placeholder="Search for a player..."
         value={searchTerm}
         onChange={handleChange}
       />
