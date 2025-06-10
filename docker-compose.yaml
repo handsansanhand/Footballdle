@@ -8,6 +8,8 @@ services:
       ZOOKEEPER_TICK_TIME: 2000
     ports:
       - "2181:2181"
+    networks:
+      - footballdleNetwork
   kafka:
     image: confluentinc/cp-kafka:7.6.0
     ports:
@@ -19,6 +21,8 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
     depends_on:
       - zookeeper
+    networks:
+      - footballdleNetwork
   postgres:
     image: postgres:16
     container_name: postgres-db
@@ -30,6 +34,8 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    networks:
+      - footballdleNetwork
   player-service:
     build:
       context: ./playerService
@@ -45,6 +51,8 @@ services:
      SPRING_KAFKA_BOOTSTRAP_SERVERS: kafka:9092
     ports:
       - "8080:8080"
+    networks:
+      - footballdleNetwork
   guessing-service:
      build:
       context: ./guessingService
@@ -54,6 +62,8 @@ services:
       SPRING_KAFKA_BOOTSTRAP_SERVERS: kafka:9092
      depends_on:
       - kafka
+     networks:
+       - footballdleNetwork
   data-pipeline:
     build:
       context: ./dataPipeline
@@ -66,6 +76,16 @@ services:
      POSTGRES_DB: ${POSTGRES_DB}
      POSTGRES_HOST: ${POSTGRES_HOST}
     restart: on-failure
+    networks:
+      - footballdleNetwork
+  frontend:
+    build: /frontend
+    ports:
+      - "3030:80"
+    networks:
+      - footballdleNetwork
+    depends_on:
+      - guessing-service
   kafdrop:
     image: obsidiandynamics/kafdrop
     ports:
@@ -74,6 +94,11 @@ services:
       KAFKA_BROKER_CONNECT: kafka:9092
     depends_on:
       - kafka
+    networks:
+      - footballdleNetwork
 
 volumes:
   postgres_data:
+
+networks:
+  footballdleNetwork:

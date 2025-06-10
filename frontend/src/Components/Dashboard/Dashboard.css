@@ -1,0 +1,141 @@
+
+.bigtitle {
+  font-family: Arial, sans-serif;
+  font-size: 72px;
+  color: #fff;
+  text-align: center;
+ margin-top: 50px;
+  font-weight: 750;
+  gap: 9px;
+    width: 100%;
+}
+
+.userDropDown {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 20px;
+} 
+
+.container {
+   display: flex;
+   margin: auto;
+    height: 700px;
+    width: 700px;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 20px;
+     align-items: center; 
+}
+
+.topRow {
+  width: 100%;
+  margin-top: 10px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+
+  justify-content: space-evenly;
+}
+
+.leftItem {
+display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 50px;
+    color: #fff;
+    background: #3c009d;
+    font-family: Arial, sans-serif;
+  font-size: 24px;
+    border-radius: 50px;
+    font-weight: 750;
+    cursor: pointer;     
+}
+.rightItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 50px;
+    color: #fff;
+    background: #3c009d;
+    font-family: Arial, sans-serif;
+  font-size: 24px;
+    border-radius: 50px;
+    font-weight: 750;
+    cursor: pointer;
+}
+.gray{
+    background: #EAEAEA;
+    color: #676767;
+}
+
+.addItemBtn {
+      font-family: Arial, sans-serif;
+  top: 20px;
+  left: 20px;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #3c009d;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-weight: 750;
+  font-size: 32px;
+ line-height: -1;
+}
+
+.formTitle, .formDescription {
+  display: block;
+  margin-bottom: 1px; /* space between label and input */
+}
+.formTitle {
+  font-weight: 750;
+  font-size: 26px;
+    font-family: Arial, sans-serif;
+}
+.formDescription {
+  font-weight: 750;
+  font-size: 22px;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.taskList {
+    width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+  overflow-y: auto;
+  max-height: 400px;  /* this controls how tall the scroll area is */
+  padding-right: 10px;
+}
+.taskList::-webkit-scrollbar {
+  width: 6px;
+}
+
+.taskList::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
+
+
+.taskItem {
+  background: #f3f3f3;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.taskItem .form-check-input {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+  accent-color: #0d6efd;
+}

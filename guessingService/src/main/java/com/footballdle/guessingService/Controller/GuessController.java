@@ -1,8 +1,10 @@
 package com.footballdle.guessingService.Controller;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -37,14 +39,24 @@ public class GuessController {
 
     @PostMapping("/players/guess")
     public Map<String, Object> retrievePlayer(@RequestBody GuessRequest request) throws Exception {
-    CompletableFuture<GuessResponse> future = guessResponseManager.registerSession(request.getSessionId());
+        System.out.println("Recieved a request " + request);
+        System.out.println("For player " + request.getPlayerName());
+        System.out.println("and league " + request.getLeague());
+        CompletableFuture<GuessResponse> future = guessResponseManager.registerSession(request.getSessionId());
     guess.sendGuessRequest(request); //publish to Kafka
-    GuessResponse guessedPlayerResponse = future.get(5, TimeUnit.SECONDS);
-    Player correctPlayer = players.getPlayerFromLeague(request.getLeague());
-    guessedPlayerResponse.setCorrectPlayer(correctPlayer);
-    System.out.println("Comparing the two now...");
-    Map<String, Object> result = GuessHandler.generateAnswerFromGuess(guessedPlayerResponse);
-    return result; //wait max 5 seconds
+    try {
+        GuessResponse guessedPlayerResponse = future.get(5, TimeUnit.SECONDS);
+        Player correctPlayer = players.getPlayerFromLeague(request.getLeague());
+        guessedPlayerResponse.setCorrectPlayer(correctPlayer);
+        System.out.println("Comparing the two now...");
+        Map<String, Object> result = GuessHandler.generateAnswerFromGuess(guessedPlayerResponse);
+        return result;
+
+    } catch (Exception e) {
+        Map<String, Object> errorResponse = new HashMap<>();
+        errorResponse.put("error", "Could not retrieve player " + request.getPlayerName());
+        return errorResponse;
+    }
     }
 
 }
