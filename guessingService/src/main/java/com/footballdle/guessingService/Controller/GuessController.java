@@ -36,14 +36,14 @@ public class GuessController {
     }
 
     @PostMapping("/players/guess")
-    public Map<String, String> retrievePlayer(@RequestBody GuessRequest request) throws Exception {
+    public Map<String, Object> retrievePlayer(@RequestBody GuessRequest request) throws Exception {
     CompletableFuture<GuessResponse> future = guessResponseManager.registerSession(request.getSessionId());
     guess.sendGuessRequest(request); //publish to Kafka
     GuessResponse guessedPlayerResponse = future.get(5, TimeUnit.SECONDS);
     Player correctPlayer = players.getPlayerFromLeague(request.getLeague());
     guessedPlayerResponse.setCorrectPlayer(correctPlayer);
     System.out.println("Comparing the two now...");
-    Map<String, String> result = GuessHandler.generateAnswerFromGuess(guessedPlayerResponse);
+    Map<String, Object> result = GuessHandler.generateAnswerFromGuess(guessedPlayerResponse);
     return result; //wait max 5 seconds
     }
 
