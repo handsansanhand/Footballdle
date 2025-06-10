@@ -40,8 +40,9 @@ function SearchBar() {
     }
 
     const filtered = allSuggestions.filter((item) =>
-      item.toLowerCase().startsWith(userInput.toLowerCase())
-    );
+      item.toLowerCase().includes(userInput.toLowerCase())
+    )
+    .slice(0,15);
 
     setFilteredSuggestions(filtered);
     setShowSuggestions(true);
