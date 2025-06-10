@@ -2,9 +2,24 @@
   display: flex;
   width: 100%;
   gap: 1px;
+  position: relative; 
 }
 
-
+.search-bar-container ul {
+  position: absolute;  
+  top: 100%;            
+  left: 0;
+  width: calc(100% - 100px); 
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 0 0 4px 4px;
+  max-height: 160px;
+  overflow-y: auto;
+  z-index: 1000;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 .search-input {
   flex: 1;
   padding: 8px;

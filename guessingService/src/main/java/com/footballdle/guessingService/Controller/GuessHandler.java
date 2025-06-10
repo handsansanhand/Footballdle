@@ -20,6 +20,11 @@ public class GuessHandler {
      * Go through each key value pair, determine if the guess is higher / lower, right or wrong
      */
     public static Map<String, Object> generateAnswerFromGuess(GuessResponse response) {
+        System.out.println("\nThe guess response i am working with is\n");
+        System.out.println("Correct player is = " + response.getCorrectPlayer());
+        System.out.println("Guess is = " + response.getGuessedPlayer());
+        System.out.println();
+        
         ObjectMapper mapper = new ObjectMapper();
         
         Player guessedPlayer = response.getGuessedPlayer();

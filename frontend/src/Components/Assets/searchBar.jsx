@@ -16,8 +16,9 @@ const suggestionsList = [
   "Strawberry"
 ];
 
-function SearchBar({leagueName}) {
+function SearchBar({leagueName, onGuessMade}) {
   const [searchTerm, setSearchTerm] = useState("");
+  const [selectedPlayer, setSelectedPlayer] = useState("");
   const [allSuggestions, setAllSuggestions] = useState([]);
   const [filteredSuggestions, setFilteredSuggestions] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
@@ -38,7 +39,9 @@ function SearchBar({leagueName}) {
 
   const handleChange = (e) => {
     const userInput = e.target.value;
+   
     setSearchTerm(userInput);
+     setSelectedPlayer("");
 
     if (userInput.length === 0) {
       setFilteredSuggestions([]);
@@ -57,11 +60,19 @@ function SearchBar({leagueName}) {
 
   const handleSuggestionClick = (suggestion) => {
     setSearchTerm(suggestion);
+    setSelectedPlayer(suggestion);
     setFilteredSuggestions([]);
     setShowSuggestions(false);
   };
 
+const handleMakeGuess = async () => {
+    if (!selectedPlayer) return;
 
+    const result = await makeGuess(selectedPlayer, leagueName);
+    if (onGuessMade) {
+      onGuessMade(typeof result === 'string' ? result : JSON.stringify(result));
+    }
+  };
 
   return (
     <div className="search-bar-container mt-10">
@@ -73,7 +84,8 @@ function SearchBar({leagueName}) {
         onChange={handleChange}
       />
       <Button className="search-button" 
-      onClick={() => makeGuess(searchTerm, leagueName)}
+      onClick={handleMakeGuess}
+       disabled={!selectedPlayer}
       >Search</Button>
       {showSuggestions && filteredSuggestions.length > 0 && (
         <ul className="absolute z-10 w-full bg-white border border-gray-300 rounded mt-1 max-h-40 overflow-y-auto">

@@ -39,9 +39,10 @@ public class GuessController {
 
     @PostMapping("/players/guess")
     public Map<String, Object> retrievePlayer(@RequestBody GuessRequest request) throws Exception {
-        System.out.println("Recieved a request " + request);
+        System.out.println("Recieved initial guess request " + request);
         System.out.println("For player " + request.getPlayerName());
-        System.out.println("and league " + request.getLeague());
+        System.out.println("And league " + request.getLeague());
+        System.out.println();
         CompletableFuture<GuessResponse> future = guessResponseManager.registerSession(request.getSessionId());
     guess.sendGuessRequest(request); //publish to Kafka
     try {
@@ -53,6 +54,7 @@ public class GuessController {
         return result;
 
     } catch (Exception e) {
+        e.printStackTrace();
         Map<String, Object> errorResponse = new HashMap<>();
         errorResponse.put("error", "Could not retrieve player " + request.getPlayerName());
         return errorResponse;
