@@ -19,6 +19,8 @@ public class PlayerService {
     private EntityManager entityManager;
     @Autowired
     private PlayerPublisherService playerPublisher;
+    @Autowired
+    private OverallPlayerPublisherService overallPlayerPublisher;
     //at the start of the program, cache some players
     private Map<String, Player> cachedPlayers = new HashMap<>();
     
@@ -37,7 +39,13 @@ public class PlayerService {
             Player player = getRandomPlayerFromTable(table);
             cachedPlayers.put(table, player);
             System.out.println("Publishing player: " + player.getPlayer() + " from table: " + table);
-            playerPublisher.publishPlayer(player); 
+            if(table.equals("overall_players_table")) {
+                overallPlayerPublisher.publishPlayer(player);
+            }
+            else {
+                playerPublisher.publishPlayer(player);   
+            }
+          
         }
     }
 
