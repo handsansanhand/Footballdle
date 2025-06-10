@@ -1,3 +1,20 @@
-.search-bar {
-    width: 100%;
+.search-bar-container {
+  display: flex;
+  width: 100%;
+  gap: 1px;
+}
+
+
+.search-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+.search-button {
+    border-radius: 0;
+    background-color: green;
+
+}
+.search-button:hover {
+    background-color: greenyellow;
 }

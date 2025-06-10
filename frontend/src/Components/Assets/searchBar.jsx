@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { fetchPlayerNames } from "../Services/playerNameService";
+import { makeGuess } from "../Services/makeGuess";
 import './SearchBar.css'
+
+import Button from "react-bootstrap/esm/Button";
 const suggestionsList = [
   "Apple",
   "Banana",
@@ -58,15 +61,20 @@ function SearchBar({leagueName}) {
     setShowSuggestions(false);
   };
 
+
+
   return (
-    <div className="search-bar mt-10">
+    <div className="search-bar-container mt-10">
       <input
         type="text"
-        className="search-bar"
+        className="search-input"
         placeholder="Search for a player..."
         value={searchTerm}
         onChange={handleChange}
       />
+      <Button className="search-button" 
+      onClick={() => makeGuess(searchTerm, leagueName)}
+      >Search</Button>
       {showSuggestions && filteredSuggestions.length > 0 && (
         <ul className="absolute z-10 w-full bg-white border border-gray-300 rounded mt-1 max-h-40 overflow-y-auto">
           {filteredSuggestions.map((suggestion, index) => (
@@ -80,6 +88,7 @@ function SearchBar({leagueName}) {
           ))}
         </ul>
       )}
+     
     </div>
   );
 }
