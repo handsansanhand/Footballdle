@@ -38,7 +38,11 @@ public class GuessController {
     @PostMapping("/players/guess")
     public GuessResponse retrievePlayer(@RequestBody GuessRequest request) throws Exception {
     CompletableFuture<GuessResponse> future = guessResponseManager.registerSession(request.getSessionId());
-    guess.sendGuessRequest(request); // publish to Kafka
-    return future.get(5, TimeUnit.SECONDS); // wait max 5 seconds
-}
+    guess.sendGuessRequest(request); //publish to Kafka
+    GuessResponse guessedPlayerResponse = future.get(5, TimeUnit.SECONDS);
+    Player correctPlayer = players.getPlayerFromLeague(request.getLeague());
+    guessedPlayerResponse.setCorrectPlayer(correctPlayer);
+    return guessedPlayerResponse; //wait max 5 seconds
+    }
+
 }

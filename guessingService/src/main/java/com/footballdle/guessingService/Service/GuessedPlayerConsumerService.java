@@ -14,10 +14,12 @@ import com.footballdle.guessingService.Model.Player;
 public class GuessedPlayerConsumerService {
     private final ObjectMapper objectMapper = new ObjectMapper();
     private final GuessResponseManager guessResponseManager;
+    private final PlayerStorageService playerStorageService;
     
         @Autowired
-    public GuessedPlayerConsumerService(GuessResponseManager guessResponseManager) {
+    public GuessedPlayerConsumerService(GuessResponseManager guessResponseManager, PlayerStorageService playerStorageService) {
         this.guessResponseManager = guessResponseManager;
+        this.playerStorageService = playerStorageService;
     }
 
     @KafkaListener(topics = "guessed-player-topic", groupId = "guessing-service-group")
@@ -26,9 +28,9 @@ public void listen(String message) {
         GuessResponse response = objectMapper.readValue(message, GuessResponse.class);
 
         String sessionId = response.getSessionId();
-        Player player = response.getPlayer();
+        Player guessedPlayer = response.getGuessedPlayer();
 
-        System.out.println("Received guessed player for session " + sessionId + ": " + player.getPlayer());
+        System.out.println("Received guessed player for session " + sessionId + ": " + guessedPlayer.getPlayer());
         guessResponseManager.completeSession(sessionId, response);
     } catch (JsonProcessingException e) {
         System.err.println("Failed to deserialize GuessResponse: " + e.getMessage());

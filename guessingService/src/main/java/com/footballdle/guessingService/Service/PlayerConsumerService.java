@@ -25,7 +25,7 @@ public class PlayerConsumerService {
     public void listen(String message) {
          try {
             Player player = objectMapper.readValue(message, Player.class);
-            System.out.println("Stored player: " + player.getPlayer());
+            System.out.println("Stored player: " + player.getPlayer() + " for league " + player.getLeague());
             playerStorageService.storePlayer(player.getLeague(), player);
          } catch (JsonProcessingException e) {
             // TODO Auto-generated catch block

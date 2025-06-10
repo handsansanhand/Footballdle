@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.footballdle.playerService.Model.GuessRequest;
 import com.footballdle.playerService.Model.GuessResponse;
@@ -35,8 +34,8 @@ public class GuessConsumerService {
         // create response with player + sessionId
         GuessResponse response = new GuessResponse();
         response.setSessionId(sessionId);
-        response.setPlayer(player);
-
+        response.setGuessedPlayer(player);
+        
         guessedPlayerPublisherService.publishGuessedPlayer(response);
 
     } catch (Exception e) {

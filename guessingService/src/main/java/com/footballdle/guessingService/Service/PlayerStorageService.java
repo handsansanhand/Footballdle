@@ -15,6 +15,10 @@ public class PlayerStorageService {
     public void storePlayer(String league, Player player) {
         cachedPlayers.put(league, player);
     }
+
+    public Player getPlayerFromLeague(String league) {
+        return cachedPlayers.get(league);
+    }
     
     public Map<String, Player> getPlayers() {
         return cachedPlayers;
