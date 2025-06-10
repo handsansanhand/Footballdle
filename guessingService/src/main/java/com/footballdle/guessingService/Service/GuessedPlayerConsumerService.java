@@ -13,7 +13,13 @@ import com.footballdle.guessingService.Model.Player;
 @Service
 public class GuessedPlayerConsumerService {
     private final ObjectMapper objectMapper = new ObjectMapper();
+    private final GuessResponseManager guessResponseManager;
     
+        @Autowired
+    public GuessedPlayerConsumerService(GuessResponseManager guessResponseManager) {
+        this.guessResponseManager = guessResponseManager;
+    }
+
     @KafkaListener(topics = "guessed-player-topic", groupId = "guessing-service-group")
 public void listen(String message) {
     try {
@@ -23,7 +29,7 @@ public void listen(String message) {
         Player player = response.getPlayer();
 
         System.out.println("Received guessed player for session " + sessionId + ": " + player.getPlayer());
-
+        guessResponseManager.completeSession(sessionId, response);
     } catch (JsonProcessingException e) {
         System.err.println("Failed to deserialize GuessResponse: " + e.getMessage());
     }
