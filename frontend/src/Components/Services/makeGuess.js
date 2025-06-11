@@ -2,7 +2,7 @@
 
 
 export const makeGuess = async (guessedPlayerName, league) => {
-    console.log("Making guess for:", guessedPlayerName , " for league ", league);
+    console.log("Making guess for ", guessedPlayerName , " for league ", league);
     try {
         const res = await fetch('/guess/players/guess', {
             method: 'POST',
