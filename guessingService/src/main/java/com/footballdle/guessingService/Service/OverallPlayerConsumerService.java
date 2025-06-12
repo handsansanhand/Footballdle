@@ -20,7 +20,7 @@ public class OverallPlayerConsumerService {
     public void listen(String message) {
          try {
             Player player = objectMapper.readValue(message, Player.class);
-            System.out.println("Stored player: " + player.getPlayer() + " for league " + player.getLeague());
+            System.out.println("OVERALL Stored player: " + player.getPlayer() + " for league " + player.getLeague());
             playerStorageService.storePlayer("Overall", player);
          } catch (JsonProcessingException e) {
             // TODO Auto-generated catch block

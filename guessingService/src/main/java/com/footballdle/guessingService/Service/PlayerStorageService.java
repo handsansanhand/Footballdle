@@ -13,11 +13,10 @@ public class PlayerStorageService {
     private Map<String, Player> cachedPlayers = new HashMap<>();
 
     public void storePlayer(String league, Player player) {
-        String fixedLeague = fixLeagueName(player);
+        String fixedLeague = fixLeagueName(league);
         cachedPlayers.put(fixedLeague, player);
     }
-    private String fixLeagueName(Player player) {
-        String league = player.getLeague();
+    private String fixLeagueName(String league) {
         switch (league) {
             case "Premier League":
                 return "premier_league_players_table";
