@@ -4,6 +4,7 @@ import SearchBar from './Assets/SearchBar';
 import { useState } from 'react';
 import './Mainpage.css'
 import GuessComponent from './Assets/GuessComponent';
+import TestButton from './Assets/TestButton';
 //main page of the frontend
 function Mainpage() {
      const [selectedLeague, setSelectedLeague] = useState("premier_league_players_table");
@@ -21,6 +22,7 @@ function Mainpage() {
     <LeageButtons onLeagueChange={setSelectedLeague}></LeageButtons>
       <SearchBar leagueName={selectedLeague} onGuessMade={handleGuessMade}></SearchBar>
     <GuessComponent guessResult={guessResult}></GuessComponent>
+    <TestButton onGuessMade={handleGuessMade}></TestButton>
     </div>
      
     </>
