@@ -1,4 +1,5 @@
 import './GuessComponent.css'
+import { parseString } from "../Services/parseString";
 function GuessComponent( {guessResult} ) {
     if(!guessResult) {
         return (
@@ -18,7 +19,7 @@ function GuessComponent( {guessResult} ) {
                 <div className='guess-grid'>
                     {Object.entries(parsedGuess).map( ([key,value]) => (
                         <div key={key} className='guess-element'> 
-                            <strong>{key}</strong>
+                            <div className='guess-element-title'>{parseString(key)}</div>
                              <div>{typeof value === 'object' ? JSON.stringify(value) : value}</div>
                         </div>
                     ))}
