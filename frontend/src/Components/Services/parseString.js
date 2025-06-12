@@ -2,7 +2,7 @@
 
 
 export const parseString = (string) => {
-    console.log("Parsing ", string);
+    
      if (!string) return "";
 
   //add a space before any uppercase letter, then capitalize the first letter

@@ -1,5 +1,8 @@
 import './GuessComponent.css'
 import { parseString } from "../Services/parseString";
+import { parseResult } from '../Services/parseResult';
+import { ImCross } from "react-icons/im";
+
 function GuessComponent( {guessResult} ) {
     if(!guessResult) {
         return (
@@ -24,7 +27,16 @@ function GuessComponent( {guessResult} ) {
                     .map( ([key,value]) => (
                         <div key={key} className='guess-element'> 
                             <div className='guess-element-title'>{parseString(key)}</div>
-                             <div>{typeof value === 'object' ? JSON.stringify(value) : value}</div>
+                            <div className='guess-element-guessed-value'>
+                                {typeof value === 'object' ? JSON.stringify(value) : value}
+                                <br></br>
+                                {typeof guessResultData[key] === 'object' 
+                                        ? JSON.stringify(guessResultData[key]) 
+                                        : parseResult(guessResultData[key])}
+                            </div>
+                            <div className='guess-element-guess-result-value'>
+                                    
+                        </div>
                         </div>
                     ))}
                 </div>

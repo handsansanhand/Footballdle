@@ -28,7 +28,8 @@ function TestButton( {onGuessMade} ) {
         league: "Correct",
         id: "Lower",
         position: {
-            Forward: "Correct"
+            Forward: "Correct",
+            Midfielder: "Incorrect"
         },
         team: "Incorrect",
         age: "Lower",
