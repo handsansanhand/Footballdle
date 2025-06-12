@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -51,7 +50,13 @@ public class GuessController {
         guessedPlayerResponse.setCorrectPlayer(correctPlayer);
         System.out.println("Comparing the two now...");
         Map<String, Object> result = GuessHandler.generateAnswerFromGuess(guessedPlayerResponse);
-        return result;
+
+        Map<String, Object> finalResponse = new HashMap<>();
+        finalResponse.put("guess_result", result);
+        finalResponse.put("guessed_player", guessedPlayerResponse.getGuessedPlayer());
+
+        
+        return finalResponse;
 
     } catch (Exception e) {
         e.printStackTrace();

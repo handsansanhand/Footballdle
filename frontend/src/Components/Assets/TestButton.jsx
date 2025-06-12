@@ -9,18 +9,32 @@ function TestButton( {onGuessMade} ) {
     const[testguess, setTestGuess] = useState("");
 
     const result = {
-    matchesPlayed: "Higher",
-    nation: "Incorrect",
-    assists: "Lower",
-    league: "Correct",
-    id: "Lower",
-    position: {
-        Forward: "Correct"
+    guessed_player : {
+        id: 1034,
+        player: "Erling Haaland",
+        age: 24,
+        nation: "Norway",
+        position: "Forward, Midfielder",
+        team: "Manchester City",
+        league: "Premier League",
+        matchesPlayed: 31,
+        goals: 22,
+        assists: 3   
     },
-    team: "Incorrect",
-    age: "Lower",
-    player: "Incorrect",
-    goals: "Lower"
+    guess_result : {
+        matchesPlayed: "Higher",
+        nation: "Incorrect",
+        assists: "Lower",
+        league: "Correct",
+        id: "Lower",
+        position: {
+            Forward: "Correct"
+        },
+        team: "Incorrect",
+        age: "Lower",
+        player: "Incorrect",
+        goals: "Lower"
+    }   
 };
 
     const handleMakeTestGuess = async () => {
