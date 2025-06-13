@@ -17,7 +17,7 @@ export const makeGuess = async (guessedPlayerName, league) => {
         })
 
         const data = await res.json()
-        alert(data);
+        
         return data;
         } catch (error) {
         console.error('Error making guess:', error)
