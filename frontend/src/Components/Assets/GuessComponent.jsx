@@ -8,7 +8,6 @@ function GuessComponent( {guessResult} ) {
         return (
              <>
           <div className='guess-container' style={{ marginTop: "20px" }}>
-      <h3>Guess Result:</h3>
       <p>{"Make a guess to see the result here."}</p>
     </div>
         </>
@@ -19,7 +18,7 @@ function GuessComponent( {guessResult} ) {
     const guessResultData = parsedGuess ? parsedGuess.guess_result : null;
      return (
     <div className='guess-container' style={{ marginTop: "20px" }}>
-      <h3>Guess Result: {guessedPlayer.player}</h3>
+      <h3>{guessedPlayer.player}</h3>
       <div className='guess-grid'>
         {Object.entries(guessedPlayer)
           .filter(([key]) => key !== 'id' && key !== 'player')
@@ -32,34 +31,38 @@ function GuessComponent( {guessResult} ) {
               return (
                 <div key={key} className='guess-element'>
                   <div className='guess-element-title'>{parseString(key)}</div>
-                  <div className='guess-element-guessed-value'>
+                   <div className='guess-element-answer' >
+                    <div className='guess-element-guessed-value'>
                     {positions.map(pos => (
-                      <div key={pos} style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                      <div key={pos} className='position-row'>
                         <span>{pos}</span>
                         <span>{parseResult(guessResultData.position[pos])}</span>
                       </div>
                     ))}
                   </div>
+                    
+                     </div>
+                  
                 </div>
               );
             }
 
             //default case for other fields
             return (
-              <div key={key} className='guess-element'>
-                <div className='guess-element-title'>{parseString(key)}</div>
-                <div className='guess-element-guessed-value'>
-                  {typeof value === 'object' ? JSON.stringify(value) : value}
-                  <br />
-                  {typeof guessResultData[key] === 'object'
-                    ? JSON.stringify(guessResultData[key])
-                    : parseResult(guessResultData[key])}
-                </div>
-              </div>
-            );
+  <div key={key} className='guess-element'>
+    <div className='guess-element-title'>{parseString(key)}</div>
+    <div className='guess-element-value-box'>
+      {typeof value === 'object' ? JSON.stringify(value) : value}
+    </div>
+    <div className='guess-element-result'>
+      {typeof guessResultData[key] === 'object'
+        ? JSON.stringify(guessResultData[key])
+        : parseResult(guessResultData[key])}
+    </div>
+  </div>
+);
           })}
       </div>
-      <p>{guessResult}</p>
     </div>
   );
 }

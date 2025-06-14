@@ -83,10 +83,10 @@ const handleMakeGuess = async () => {
         value={searchTerm}
         onChange={handleChange}
       />
-      <Button className="search-button" 
+      <button className="search-button" 
       onClick={handleMakeGuess}
        disabled={!selectedPlayer}
-      >Search</Button>
+      >Guess</button>
       {showSuggestions && filteredSuggestions.length > 0 && (
         <ul className="absolute z-10 w-full bg-white border border-gray-300 rounded mt-1 max-h-40 overflow-y-auto">
           {filteredSuggestions.map((suggestion, index) => (

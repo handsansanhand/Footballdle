@@ -2,7 +2,7 @@
   display: flex;
   width: 100%;
   gap: 1px;
-  position: relative; 
+  position: relative;
 }
 
 .search-bar-container ul {
@@ -28,8 +28,15 @@
 .search-button {
     border-radius: 0;
     background-color: green;
+    width: 75px;
 
 }
-.search-button:hover {
-    background-color: greenyellow;
+.search-button:hover:enabled {
+  background-color: greenyellow;
+}
+
+.search-button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
 }
